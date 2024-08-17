@@ -86,17 +86,25 @@ path {
 .white {
     fill: rgb(40, 40, 40);
 }
-.turnbar, #player, #info-display, #err{
+.turnbar, #info-display, #err{
     font-family: 'bungee';
     font-size: 1.5rem;
     color:#4db1bc;
     text-shadow: 2px 2px black;
 }
+#player{
+    color: transparent;
+}
+.note{
+    font-family: 'bungee';
+    font-size: 0.8rem;
+    color:rgb(38, 113, 116)
+}
 @media (max-width: 600px){
     h1{
         font-size: 3rem;
     }
-    .turnbar, #player, #info-display, #err {
+    .turnbar, #info-display, #err {
         font-size: 1rem;
     }
 }
