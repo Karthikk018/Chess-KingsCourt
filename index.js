@@ -10,7 +10,7 @@ const infoDisplay = document.querySelector("#info-display");
 const err = document.querySelector("#err");
 const width = 8
 let playerTurn = 'black';
-playerDetails.textContent = 'black'
+playerDetails.textContent = 'white'
 const startPieces = [
     Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook,
     Pawn, Pawn, Pawn, Pawn, Pawn, Pawn, Pawn, Pawn,
@@ -314,11 +314,11 @@ function changePlayer() {
     if (playerTurn === 'black') {
         reverseIds()
         playerTurn = 'white';
-        playerDetails.textContent = 'black'
+        playerDetails.textContent = 'white'
     } else {
         revertIds();
         playerTurn = 'black'
-        playerDetails.textContent = 'white'
+        playerDetails.textContent = 'black'
     }
 }
 
