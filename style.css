@@ -92,15 +92,22 @@ path {
     color:#4db1bc;
     text-shadow: 2px 2px black;
 }
+.turnbar{
+    margin-left: 45px;
+}
 #player{
     color: transparent;
 }
 .note{
     font-family: 'bungee';
     font-size: 0.8rem;
-    color:rgb(38, 113, 116)
+    color:#4db1bc;
+    text-shadow: 1px 1px black;
 }
 @media (max-width: 600px){
+    body{
+        height: 90%
+    }
     h1{
         font-size: 3rem;
     }
