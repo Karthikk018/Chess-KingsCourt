@@ -10,7 +10,7 @@ const infoDisplay = document.querySelector("#info-display");
 const err = document.querySelector("#err");
 const width = 8
 let playerTurn = 'black';
-playerDetails.textContent = 'white'
+playerDetails.textContent = 'black'
 const startPieces = [
     Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook,
     Pawn, Pawn, Pawn, Pawn, Pawn, Pawn, Pawn, Pawn,
