@@ -314,11 +314,11 @@ function changePlayer() {
     if (playerTurn === 'black') {
         reverseIds()
         playerTurn = 'white';
-        playerDetails.textContent = 'white'
+        playerDetails.textContent = 'black'
     } else {
         revertIds();
         playerTurn = 'black'
-        playerDetails.textContent = 'black'
+        playerDetails.textContent = 'white'
     }
 }
 
